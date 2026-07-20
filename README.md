@@ -1,62 +1,56 @@
 <!-- 
   wittydhana/wittydhana
-  Terminal-themed AI Engineer profile
+  AI Engineer profile — rebuilt, not generated
 -->
 
 <div align="center">
 
-<pre style="background:#0d1117;color:#e6edf3;padding:20px;border-radius:12px;">
-┌─────────────────────────────────────────────────────────────┐
-│  <span style="color:#58a6ff">wittydhana@ai-engineer</span>:<span style="color:#3fb950">~</span>$ whoami                          │
-│                                                             │
-│  <span style="color:#f0883e">Dhanashri Isloor</span>                                          │
-│  ├─ Role: AI Engineer | Agentic AI | RAG Systems           │
-│  ├─ Experience: 4+ years (Automation → Backend → AI)       │
-│  ├─ Location: Mangalore, India                             │
-│  └─ Status: <span style="color:#3fb950">● Available for hire</span>                           │
-│                                                             │
-│  <span style="color:#58a6ff">wittydhana@ai-engineer</span>:<span style="color:#3fb950">~</span>$ cat stack.json                  │
-│  {                                                          │
-│    "languages": ["Python", "TypeScript", "SQL"],           │
-│    "frameworks": ["FastAPI", "LangGraph", "LangChain"],    │
-│    "databases": ["Qdrant", "PostgreSQL", "Redis"],         │
-│    "infra": ["Docker", "CI/CD", "Cloud-Native"],           │
-│    "focus": ["Agentic AI", "RAG", "Multi-Agent Systems"]   │
-│  }                                                          │
-│                                                             │
-│  <span style="color:#58a6ff">wittydhana@ai-engineer</span>:<span style="color:#3fb950">~</span>$ ls projects/                   │
-│  <span style="color:#a371f7">enterprise-ai-os/</span>  <span style="color:#a371f7">rag-pipeline/</span>  <span style="color:#a371f7">agent-orchestrator/</span>      │
-│                                                             │
-│  <span style="color:#58a6ff">wittydhana@ai-engineer</span>:<span style="color:#3fb950">~</span>$ _                              │
-└─────────────────────────────────────────────────────────────┘>
+<pre>
+┌──────────────────────────────────────────────────────────────┐
+│  <b>wittydhana@ai-engineer</b>:<span style="color:green">~</span>$ whoami                           │
+│                                                              │
+│  Dhanashri Isloor                                            │
+│  ├─ Role: AI Engineer | Agentic AI | RAG | LLM Apps         │
+│  ├─ Exp: 4+ yrs (Automation → Backend → AI)                 │
+│  ├─ Location: Mangalore, India                               │
+│  └─ Status: <span style="color:green">● Open to AI Engineering roles</span>                  │
+│                                                              │
+│  <b>wittydhana@ai-engineer</b>:<span style="color:green">~</span>$ cat focus.txt                   │
+│  Agentic AI · RAG Pipelines · Multi-Agent Systems            │
+│  Enterprise AI Platforms · Vector Databases · LLMs           │
+│                                                              │
+│  <b>wittydhana@ai-engineer</b>:<span style="color:green">~</span>$ _                                │
+└──────────────────────────────────────────────────────────────┘
 </pre>
 
 </div>
 
 ---
 
-## `> ./current_focus.sh`
+## `> ./about.py`
 
 ```python
 class Dhanashri:
     def __init__(self):
-        self.current_role = "AI Engineer"
-        self.years_exp = 4
-        self.transition = "Full Stack Java → Python AI"
+        self.role = "AI Engineer"
+        self.years = 4
+        self.origin = "Full Stack Java Developer"
+        self.current = "Python AI / Agentic Systems"
     
     def building(self):
         return {
-            "main": "Enterprise AI Operating System",
+            "project": "Enterprise AI Operating System",
+            "stack": ["FastAPI", "LangGraph", "Qdrant", "PostgreSQL", "Redis"],
             "features": [
-                "Advanced RAG pipelines with semantic retrieval",
-                "AI agents with long-term memory architectures", 
-                "Enterprise knowledge management platform",
-                "Scalable multi-agent orchestration"
+                "Advanced RAG with semantic retrieval",
+                "AI agents with long-term memory",
+                "Enterprise knowledge management",
+                "Multi-agent orchestration"
             ]
         }
     
     def seeking(self):
         return [
-            "AI Engineer", "Generative AI Engineer", 
+            "AI Engineer", "Generative AI Engineer",
             "Agentic AI Engineer", "AI Platform Engineer"
         ]
